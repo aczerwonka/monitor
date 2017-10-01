@@ -50,7 +50,6 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
                 <!-- this will get rid of version info from war file name -->
-                <finalName>monitor</finalName>
             </configuration>
         </plugin>
     </plugins>
