@@ -36,7 +36,10 @@ public class LoggingController {
         return "bangla";
     }
 
-
+    @RequestMapping("/")
+    public String get() {
+        return "hello";
+    }
     @RequestMapping("/getEntries")
     public String getEntries() {
         System.out.println("getting entries");
